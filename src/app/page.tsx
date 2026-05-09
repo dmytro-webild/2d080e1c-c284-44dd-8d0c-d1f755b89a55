@@ -3,9 +3,9 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
-import FaqBase from '@/components/sections/faq/FaqBase';
+import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
-import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
+import FooterBase from '@/components/sections/footer/FooterBase';
 import HeroSplitDoubleCarousel from '@/components/sections/hero/HeroSplitDoubleCarousel';
 import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
@@ -178,13 +178,14 @@ export default function LandingPage() {
   </div>
 
   <div id="faq" data-section="faq">
-      <FaqBase
+      <FaqDouble
       textboxLayout="split"
       useInvertedBackground={true}
       faqs={[
         { id: "f1", title: "How do I enroll?", content: "Visit our admissions office with your results and identification." },
         { id: "f2", title: "Are there school buses?", content: "Yes, we provide transport for students living in the main residential zones." },
         { id: "f3", title: "What are school hours?", content: "Classes run from 07:30 AM to 03:00 PM, Monday through Friday." },
+        { id: "f4", title: "What subjects are offered?", content: "We offer a wide range of subjects including Sciences, Arts, and Commercial studies." },
       ]}
       title="Frequently Asked Questions"
       description="Quick answers to help you understand our school processes."
@@ -200,29 +201,37 @@ export default function LandingPage() {
       inputs={[
         { name: "name", type: "text", placeholder: "Your Name" },
         { name: "email", type: "email", placeholder: "Your Email" },
+        { name: "subject", type: "text", placeholder: "Inquiry Subject" },
       ]}
-      textarea={{ name: "message", placeholder: "How can we assist you?" }}
+      textarea={{ name: "message", placeholder: "How can we assist you?", rows: 4 }}
       imageSrc="http://img.b2bpic.net/free-photo/business-meeting-working-room-office-building_105762-1793.jpg"
       mediaPosition="left"
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBaseCard
+      <FooterBase
       logoText="Chipadze High School"
       columns={[
         {
-          title: "Academics",          items: [
-            { label: "STEM Programs", href: "#features" },
-            { label: "Sports", href: "#features" },
+          title: "Quick Links",          items: [
+            { label: "Home", href: "#hero" },
+            { label: "About Us", href: "#about" },
+            { label: "Programs", href: "#features" },
           ],
         },
         {
           title: "Admissions",          items: [
             { label: "Enrollment", href: "#contact" },
-            { label: "Contact", href: "#contact" },
+            { label: "Contact Support", href: "#contact" },
           ],
         },
+        {
+            title: "Legal",            items: [
+              { label: "Privacy Policy", href: "#" },
+              { label: "Terms of Service", href: "#" },
+            ]
+        }
       ]}
       copyrightText="© 2025 Chipadze High School"
     />
