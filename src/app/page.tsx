@@ -132,7 +132,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",          value: "20",          title: "Clubs Offered",          description: "Diverse extracurricular activities",          imageSrc: "http://img.b2bpic.net/free-photo/well-organized-empty-medical-cabinet-ready-healthcare-services_482257-124048.jpg"},
+          id: "m1",          value: "8 ",          title: "Clubs Offered",          description: "Diverse extracurricular activities",          imageSrc: "http://img.b2bpic.net/free-photo/well-organized-empty-medical-cabinet-ready-healthcare-services_482257-124048.jpg"},
         {
           id: "m2",          value: "40+",          title: "Classrooms",          description: "Well-equipped learning spaces",          imageSrc: "http://img.b2bpic.net/free-photo/room-interior-design_23-2148899442.jpg"},
         {
