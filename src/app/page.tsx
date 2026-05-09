@@ -151,7 +151,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       members={[
         { id: "t1", name: "Mr. Dube", role: "Principal", imageSrc: "http://img.b2bpic.net/free-photo/graduation-concept-with-portrait-happy-man_23-2148201907.jpg" },
-        { id: "t2", name: "Mrs. Moyo", role: "Senior Teacher", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778314907330-q43byeit.png" },
+        { id: "t2", name: "Mrs. Moyo", role: "Deputy headmaster ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778314907330-q43byeit.png" },
         { id: "t3", name: "Mr. Ndlovu", role: "Athletics Director", imageSrc: "http://img.b2bpic.net/free-photo/close-up-beautiful-woman-smiling_23-2148369437.jpg" },
       ]}
       title="Leadership & Faculty"
