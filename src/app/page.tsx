@@ -51,15 +51,15 @@ export default function LandingPage() {
       title="Empowering Future Generations"
       description="Chipadze High School is committed to academic excellence, leadership development, and character building in every student."
       leftCarouselItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-camera-book_23-2148372200.jpg", imageAlt: "Campus Overview" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/side-view-smiley-kids-sitting-table_23-2149613762.jpg", imageAlt: "Students in classroom" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/building_1127-3187.jpg", imageAlt: "Campus Overview 2" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778314207972-wugn6vec.png", imageAlt: "Campus Overview" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778314499981-bydw2zsw.png", imageAlt: "Students in classroom" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778314745571-3ojqumgm.png", imageAlt: "Campus Overview 2" },
         { imageSrc: "http://img.b2bpic.net/free-photo/girl-pushing-her-colleague-with-physical-impairment-through-library_482257-126269.jpg", imageAlt: "Students in library" },
         { imageSrc: "http://img.b2bpic.net/free-photo/building-lake_1127-3460.jpg", imageAlt: "Campus Overview 3" },
       ]}
       rightCarouselItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/group-friends-posing-with-their-skateboards-roller-skates-outside-city_23-2149295742.jpg", imageAlt: "Students at science lab" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/water-dwelling_1127-3257.jpg", imageAlt: "School architecture" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778314242135-8yjpmtrq.png", imageAlt: "Students at science lab" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315576864-fsmvqyxk.png", imageAlt: "School architecture" },
         { imageSrc: "http://img.b2bpic.net/free-photo/close-up-students-learning-together_23-2149127112.jpg", imageAlt: "Students at sports activity" },
         { imageSrc: "http://img.b2bpic.net/free-photo/getting-information-project_1098-14186.jpg", imageAlt: "School hallway" },
         { imageSrc: "http://img.b2bpic.net/free-photo/teen-boy-with-book-looking-up-near-friends_23-2147864051.jpg", imageAlt: "Students at computer lab" },
@@ -93,7 +93,7 @@ export default function LandingPage() {
         { value: "1200+", title: "Success Stories" },
         { value: "98%", title: "University Placement" },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/side-view-teenage-female-student-walking-front-university-building_23-2148093587.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778314179138-vmr7foqs.png"
       imageAlt="About Chipadze High School"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
@@ -136,7 +136,7 @@ export default function LandingPage() {
         {
           id: "m2",          value: "40+",          title: "Classrooms",          description: "Well-equipped learning spaces",          imageSrc: "http://img.b2bpic.net/free-photo/room-interior-design_23-2148899442.jpg"},
         {
-          id: "m3",          value: "15+",          title: "Sports Teams",          description: "Building competitive spirit",          imageSrc: "http://img.b2bpic.net/free-photo/female-team-girls-putting-hands-together_23-2148355394.jpg"},
+          id: "m3",          value: "15+",          title: "Sports Teams",          description: "Building competitive spirit",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315518061-2mdlwtcn.png"},
       ]}
       title="School at a Glance"
       description="Measuring our impact through numbers and milestones."
@@ -151,7 +151,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       members={[
         { id: "t1", name: "Mr. Dube", role: "Principal", imageSrc: "http://img.b2bpic.net/free-photo/graduation-concept-with-portrait-happy-man_23-2148201907.jpg" },
-        { id: "t2", name: "Mrs. Moyo", role: "Senior Teacher", imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-woman-library_23-2149204737.jpg" },
+        { id: "t2", name: "Mrs. Moyo", role: "Senior Teacher", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778314907330-q43byeit.png" },
         { id: "t3", name: "Mr. Ndlovu", role: "Athletics Director", imageSrc: "http://img.b2bpic.net/free-photo/close-up-beautiful-woman-smiling_23-2148369437.jpg" },
       ]}
       title="Leadership & Faculty"
@@ -204,7 +204,7 @@ export default function LandingPage() {
         { name: "subject", type: "text", placeholder: "Inquiry Subject" },
       ]}
       textarea={{ name: "message", placeholder: "How can we assist you?", rows: 4 }}
-      imageSrc="http://img.b2bpic.net/free-photo/business-meeting-working-room-office-building_105762-1793.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315483156-il1vhzzo.png"
       mediaPosition="left"
     />
   </div>
