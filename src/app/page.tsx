@@ -61,11 +61,11 @@ export default function LandingPage() {
       description="Chipadze High School is committed to academic excellence, leadership development, and character building in every student."
       leftCarouselItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-camera-book_23-2148372200.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-camera-book_23-2148372200.jpg?_wi=1",
           imageAlt: "Campus Overview",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-smiley-kids-sitting-table_23-2149613762.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/side-view-smiley-kids-sitting-table_23-2149613762.jpg?_wi=1",
           imageAlt: "Students in classroom",
         },
         {
@@ -176,7 +176,7 @@ export default function LandingPage() {
           title: "University Placement",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/side-view-teenage-female-student-walking-front-university-building_23-2148093587.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/side-view-teenage-female-student-walking-front-university-building_23-2148093587.jpg?_wi=1"
       imageAlt="About Chipadze High School"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
@@ -200,7 +200,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/researchers-laboratory_23-2148776165.jpg",
             imageAlt: "Technology Room",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-camera-book_23-2148372200.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-holding-camera-book_23-2148372200.jpg?_wi=2",
           imageAlt: "science laboratory classroom equipment",
         },
         {
@@ -214,7 +214,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/aerial-view-grass-field-hockey_23-2149668571.jpg",
             imageAlt: "Team Practice",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-smiley-kids-sitting-table_23-2149613762.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/side-view-smiley-kids-sitting-table_23-2149613762.jpg?_wi=2",
           imageAlt: "science laboratory classroom equipment",
         },
         {
@@ -228,7 +228,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/books-lying-ladder-bookstore_23-2147767747.jpg",
             imageAlt: "Study Room",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-teenage-female-student-walking-front-university-building_23-2148093587.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/side-view-teenage-female-student-walking-front-university-building_23-2148093587.jpg?_wi=2",
           imageAlt: "science laboratory classroom equipment",
         },
       ]}
