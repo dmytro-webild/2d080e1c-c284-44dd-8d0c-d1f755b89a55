@@ -111,11 +111,11 @@ export default function LandingPage() {
           phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/researchers-laboratory_23-2148776165.jpg", imageAlt: "Technology Room" }
         },
         {
-          title: "Sports Development",          description: "Focus on holistic wellness and physical education.",          phoneOne: { imageSrc: "http://img.b2bpic.net/free-photo/athletic-blonde-women-sitting-grass_23-2148355533.jpg", imageAlt: "Sports Field" },
+          title: "Sports Development",          description: "Focus on holistic wellness and physical education.",          phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315518061-2mdlwtcn.png", imageAlt: "Sports Field" },
           phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/aerial-view-grass-field-hockey_23-2149668571.jpg", imageAlt: "Team Practice" }
         },
         {
-          title: "Library & Research",          description: "Resources to foster a culture of inquiry.",          phoneOne: { imageSrc: "http://img.b2bpic.net/free-photo/girl-with-books-sitting-shelves_23-2147854102.jpg", imageAlt: "Library View" },
+          title: "Library & Research",          description: "Resources to foster a culture of inquiry.",          phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315483156-il1vhzzo.png", imageAlt: "Library View" },
           phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/books-lying-ladder-bookstore_23-2147767747.jpg", imageAlt: "Study Room" }
         },
       ]}
