@@ -64,7 +64,7 @@ export default function LandingPage() {
         { imageSrc: "http://img.b2bpic.net/free-photo/getting-information-project_1098-14186.jpg", imageAlt: "School hallway" },
         { imageSrc: "http://img.b2bpic.net/free-photo/teen-boy-with-book-looking-up-near-friends_23-2147864051.jpg", imageAlt: "Students at computer lab" },
       ]}
-      buttons={[{ text: "Learn More", href: "#about" }]}
+      buttons={[{ text: "Learn More", href: "#features" }]} 
       avatars={[
         { src: "http://img.b2bpic.net/free-photo/student-walking-campus-with-backpack_23-2147850662.jpg", alt: "Student walking" },
         { src: "http://img.b2bpic.net/free-photo/students-walking-near-campus_23-2147850663.jpg", alt: "Students walking" },
