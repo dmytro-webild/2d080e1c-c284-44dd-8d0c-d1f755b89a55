@@ -111,11 +111,11 @@ export default function LandingPage() {
           phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/researchers-laboratory_23-2148776165.jpg", imageAlt: "Technology Room" }
         },
         {
-          title: "Sports Development",          description: "Focus on holistic wellness and physical education.",          phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315518061-2mdlwtcn.png", imageAlt: "Sports Field" },
+          title: "Sports Development",          description: "Focus on holistic wellness and physical education.",          phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315518061-2mdlwtcn.png?_wi=1", imageAlt: "Sports Field" },
           phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/aerial-view-grass-field-hockey_23-2149668571.jpg", imageAlt: "Team Practice" }
         },
         {
-          title: "Library & Research",          description: "Resources to foster a culture of inquiry.",          phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315483156-il1vhzzo.png", imageAlt: "Library View" },
+          title: "Library & Research",          description: "Resources to foster a culture of inquiry.",          phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315483156-il1vhzzo.png?_wi=1", imageAlt: "Library View" },
           phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/books-lying-ladder-bookstore_23-2147767747.jpg", imageAlt: "Study Room" }
         },
       ]}
@@ -136,7 +136,7 @@ export default function LandingPage() {
         {
           id: "m2",          value: "40+",          title: "Classrooms",          description: "Well-equipped learning spaces",          imageSrc: "http://img.b2bpic.net/free-photo/room-interior-design_23-2148899442.jpg"},
         {
-          id: "m3",          value: "15+",          title: "Sports Teams",          description: "Building competitive spirit",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315518061-2mdlwtcn.png"},
+          id: "m3",          value: "15+",          title: "Sports Teams",          description: "Building competitive spirit",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315518061-2mdlwtcn.png?_wi=2"},
       ]}
       title="School at a Glance"
       description="Measuring our impact through numbers and milestones."
@@ -204,7 +204,7 @@ export default function LandingPage() {
         { name: "subject", type: "text", placeholder: "Inquiry Subject" },
       ]}
       textarea={{ name: "message", placeholder: "How can we assist you?", rows: 4 }}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315483156-il1vhzzo.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DTiIWtAtKwXJVjuLkMC9HJeqcU/uploaded-1778315483156-il1vhzzo.png?_wi=2"
       mediaPosition="left"
     />
   </div>
